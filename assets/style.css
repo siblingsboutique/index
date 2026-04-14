@@ -229,8 +229,8 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(26,0,5,0.85) 0%, rgba(61,10,20,0.8) 20%, rgba(139,10,26,0.75) 45%, rgba(90,16,32,0.8) 65%, rgba(42,3,8,0.9) 100%),
-                url('https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=1920&q=80') center/cover no-repeat;
+        background: linear-gradient(135deg, rgba(26,0,5,0.85) 0%, rgba(61,10,20,0.8) 20%, rgba(139,10,26,0.75) 45%, rgba(90,16,32,0.8) 65%, rgba(42,3,8,0.9) 100%),
+                    url('https://images.pexels.com/photos/16408930/pexels-photo-16408930/free-photo-of-couple-in-traditional-clothing.jpeg') center/cover no-repeat;
     overflow: hidden;
 }
 
@@ -547,8 +547,8 @@ section {
 /* Glass badge on about image */
 .experience-badge {
     position: absolute;
-    bottom: -30px;
-    right: -30px;
+    bottom: -20px;
+    right: -20px;
     width: 160px;
     height: 160px;
     background: rgba(255, 255, 255, 0.2);
@@ -560,6 +560,9 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 6px;
+    padding: 12px;
+    text-align: center;
     box-shadow: var(--shadow-strong), var(--shadow-glow);
 }
 
@@ -567,6 +570,7 @@ section {
     font-family: var(--font-heading);
     font-size: 44px;
     font-weight: 700;
+    line-height: 1;
     background: linear-gradient(135deg, var(--accent-gold), #e8c468);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -579,7 +583,8 @@ section {
     text-transform: uppercase;
     letter-spacing: 1px;
     color: var(--text-dark);
-    text-align: center;
+    line-height: 1.3;
+    max-width: 110px;
 }
 
 .about-content .section-subtitle {
@@ -691,6 +696,14 @@ section {
     background-position: center;
     transition: var(--transition-medium);
     position: relative;
+    background: linear-gradient(135deg, rgba(139,10,26,0.2), rgba(212,165,116,0.2));
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .card-image::after {
@@ -703,25 +716,6 @@ section {
     background: linear-gradient(to top, rgba(255,255,255,0.9), transparent);
 }
 
-.card-image.bridal {
-    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(139,10,26,0.4) 100%),
-                url('https://images.unsplash.com/photo-1594552072238-b8a33785b261?w=500&q=80') center/cover no-repeat;
-}
-
-.card-image.traditional {
-    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(109,8,21,0.4) 100%),
-                url('https://images.unsplash.com/photo-1583391733956-6c78276477e2?w=500&q=80') center/cover no-repeat;
-}
-
-.card-image.casual {
-    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(74,5,16,0.4) 100%),
-                url('https://images.unsplash.com/photo-1558171813-4c088753af8f?w=500&q=80') center/cover no-repeat;
-}
-
-.card-image.festive {
-    background: linear-gradient(180deg, rgba(0,0,0,0) 40%, rgba(169,30,46,0.4) 100%),
-                url('https://images.unsplash.com/photo-1583391733981-8b530c480725?w=500&q=80') center/cover no-repeat;
-}
 
 .collection-card:hover .card-image {
     transform: scale(1.05);
