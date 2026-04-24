@@ -683,24 +683,22 @@
     </script>
 
     <script>
-      emailjs.init("EKF-AGamdb8xnqIdV");
+      document.addEventListener("DOMContentLoaded", function () {
+        emailjs.init("EKF-AGamdb8xnqIdV");
 
-      document
-        .getElementById("contact-form")
-        .addEventListener("submit", function (e) {
+        const form = document.getElementById("contact-form");
+
+        form.addEventListener("submit", function (e) {
           e.preventDefault();
-
-          const form = e.target;
 
           const data = {
             name: form.name.value,
             email: form.email.value,
             time: new Date().toLocaleString(),
             message: `Name: ${form.name.value}
-Contact: ${form.phone.value}
-Interested in: ${form.service.value}
-
-Message: ${form.message.value}`,
+            Contact: ${form.phone.value}
+            Interested in: ${form.service.value}
+            Message: ${form.message.value}`,
           };
 
           emailjs
@@ -710,10 +708,11 @@ Message: ${form.message.value}`,
               form.reset();
             })
             .catch((err) => {
-              console.log(err);
+              console.error(err);
               alert("Failed to send");
             });
         });
+      });
     </script>
   </body>
 </html>
