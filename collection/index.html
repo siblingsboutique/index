@@ -315,8 +315,9 @@
         <div class="collection-media">
           <img 
             src="${item.photo}" 
+            loading="eager"
+            fetchpriority="high"
             alt="${item.title}"
-            loading="lazy"
           >
         </div>
 
