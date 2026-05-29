@@ -74,11 +74,20 @@
   },
   {
     "id": 9,
-    "category": "Bridal Saree Set",
+    "category": "bridal",
     "title": "Bridal Saree Set",
     "size": "",
     "price": "3999",
     "photo": "/assets/images/collections/bridal.webp",
+    "gender": "male"
+  },
+  {
+    "id": 10,
+    "category": "Newari Saree Set",
+    "title": "Newari Saree Set",
+    "size": "",
+    "price": "4499",
+    "photo": "/assets/images/collections/Newari Saree Set.webp",
     "gender": "male"
   }
 ]
