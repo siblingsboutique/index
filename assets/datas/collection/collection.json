@@ -53,5 +53,32 @@
     "price": "6499",
     "photo": "/assets/images/collections/Floral lehenga  Handwork chunni Black.webp",
     "gender": "female"
+  },
+  {
+    "id": 7,
+    "category": "kids",
+    "title": "Limboo Lehenga Choli Set",
+    "size": "",
+    "price": "3999",
+    "photo": "/assets/images/collections/Limboo Lehenga Choli Set.webp",
+    "gender": "female"
+  },
+  {
+    "id": 8,
+    "category": "traditional",
+    "title": "Newari Boy Coat Set",
+    "size": "",
+    "price": "5999",
+    "photo": "/assets/images/collections/newar dawra sural set.webp",
+    "gender": "male"
+  },
+  {
+    "id": 9,
+    "category": "Bridal Saree Set",
+    "title": "Bridal Saree Set",
+    "size": "",
+    "price": "3999",
+    "photo": "/assets/images/collections/newar dawra sural set.webp",
+    "gender": "male"
   }
 ]
