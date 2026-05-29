@@ -79,7 +79,7 @@
     "size": "",
     "price": "3999",
     "photo": "/assets/images/collections/bridal.webp",
-    "gender": "male"
+    "gender": "female"
   },
   {
     "id": 10,
@@ -88,6 +88,6 @@
     "size": "",
     "price": "4499",
     "photo": "/assets/images/collections/Newari Saree Set.webp",
-    "gender": "male"
+    "gender": "female"
   }
 ]
