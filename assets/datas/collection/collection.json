@@ -5,7 +5,7 @@
     "title": "Full Handowork Boutique Pashni Set",
     "price": "3450",
     "photo": "/assets/images/collections/pashni set kid girl.webp",
-    "gender": "women"
+    "gender": "female"
   },
   {
     "id": 2,
@@ -13,6 +13,14 @@
     "title": "Handwork Chaubandi ",
     "price": "4499",
     "photo": "/assets/images/collections/handwork chaubandi.webp",
-    "gender": "women"
+    "gender": "female"
+  },
+  {
+    "id": 3,
+    "category": "lehenga",
+    "title": "Net Lehenga Green ",
+    "price": "6499",
+    "photo": "/assets/images/collections/net lehenga green.webp",
+    "gender": "female"
   }
 ]
