@@ -27,16 +27,25 @@
     "id": 4,
     "category": "kids",
     "title": "Daura Suruwal & Waistcoat Set",
-    "price": "6499",
+    "price": "1500",
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Green.webp",
     "gender": "male"
   },
   {
-    "id": 4,
+    "id": 5,
     "category": "kids",
     "title": "Daura Suruwal & Waistcoat Set",
-    "price": "6499",
+    "price": "1500",
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Red.webp",
     "gender": "male"
+  },
+
+  {
+    "id": 6,
+    "category": "lehenga",
+    "title": "Floral Lehenga Handwork Chunni",
+    "price": "6499",
+    "photo": "/assets/images/collections/Floral lehenga  Handwork chunni Black.webp",
+    "gender": "female"
   }
 ]
