@@ -201,5 +201,23 @@
     "price": "",
     "photo": "/assets/images/collections/black kurta.webp",
     "gender": "female"
+  },
+  {
+    "id": 22,
+    "category": "sareee & kurta",
+    "title": "Smoke White Kurta",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/smoke white kurta.webp",
+    "gender": "female"
+  },
+  {
+    "id": 23,
+    "category": "sareee & kurta",
+    "title": "Purple Kurta",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/purple kurta.webp",
+    "gender": "female"
   }
 ]
