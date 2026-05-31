@@ -146,15 +146,6 @@
     "photo": "/assets/images/collections/Fish Dress.webp",
     "gender": "female"
   },
-  {
-    "id": 16,
-    "category": "kids",
-    "title": "Daura Suruwal & Waistcoat",
-    "size": "",
-    "price": "1999",
-    "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
-    "gender": "male"
-  },
 
   {
     "id": 17,
@@ -237,5 +228,14 @@
     "price": "",
     "photo": "/assets/images/collections/blue chaubandi.webp",
     "gender": "female"
+  },
+  {
+    "id": 26,
+    "category": "kids",
+    "title": "Daura Suruwal & Waistcoat",
+    "size": "",
+    "price": "1999",
+    "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
+    "gender": "male"
   }
 ]
