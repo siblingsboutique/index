@@ -273,5 +273,15 @@
     "price": "",
     "photo": "/assets/images/collections/bride sandal dark red.webp",
     "gender": "female"
+  },
+
+  {
+    "id": 30,
+    "category": "footwear & accessories",
+    "title": "Naugeri Green Hydro",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/naugeri green hydro.webp",
+    "gender": "female"
   }
 ]
