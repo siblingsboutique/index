@@ -330,7 +330,7 @@
 
           <h5>${item.title}</h5>
 
-          <p class="collection-price">Rs. ${item.price}</p>
+          <p class="collection-price">${item.price !== "" ? "Rs. " + item.price : ""}</p>
 
           <a
             class="whatsapp-link"
