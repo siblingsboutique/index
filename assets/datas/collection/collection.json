@@ -107,5 +107,14 @@
     "price": "",
     "photo": "/assets/images/collections/newari male female traditional.webp",
     "gender": "all"
+  },
+  {
+    "id": 13,
+    "category": "lehenga",
+    "title": "Floral Lehenga Set",
+    "size": "",
+    "price": "5999",
+    "photo": "/assets/images/collections/Floral Lehenga Set.webp",
+    "gender": "all"
   }
 ]
