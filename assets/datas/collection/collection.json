@@ -172,7 +172,7 @@
     "title": "Tamang Dress",
     "size": "",
     "price": "2299",
-    "photo": "/assets/images/collections/tamang Dress Brown.webp",
+    "photo": "/assets/images/collections/tamang Dress brown.webp",
     "gender": "female"
   },
   {
@@ -181,7 +181,7 @@
     "title": "Newari Gown",
     "size": "",
     "price": "",
-    "photo": "/assets/images/collections/tamang Dress Brown.webp",
+    "photo": "/assets/images/collections/newari gown.webp",
     "gender": "female"
   },
   {
@@ -189,8 +189,8 @@
     "category": "bridal",
     "title": "Bridal Saree Set",
     "size": "",
-    "price": "15499",
-    "photo": "/assets/images/collections/nepali bridal dress.webp",
+    "price": "",
+    "photo": "/assets/images/collections/nepali bridal dress 2.webp",
     "gender": "female"
   }
 ]
