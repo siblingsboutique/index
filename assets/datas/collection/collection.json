@@ -145,5 +145,14 @@
     "price": "4999",
     "photo": "/assets/images/collections/Fish Dress.webp",
     "gender": "female"
+  },
+  {
+    "id": 16,
+    "category": "kids",
+    "title": "Daura Suruwal & Waistcoat",
+    "size": "",
+    "price": "4999",
+    "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
+    "gender": "male"
   }
 ]
