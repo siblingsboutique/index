@@ -192,5 +192,14 @@
     "price": "",
     "photo": "/assets/images/collections/nepali bridal dress 2.webp",
     "gender": "female"
+  },
+  {
+    "id": 21,
+    "category": "sareee & kurta",
+    "title": "Black Kurta",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/black kurta.webp",
+    "gender": "female"
   }
 ]
