@@ -186,7 +186,7 @@
   },
   {
     "id": 21,
-    "category": "sareee & kurta",
+    "category": "saree & kurta",
     "title": "Black Kurta",
     "size": "",
     "price": "",
@@ -336,6 +336,15 @@
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/dhaka topi 2.webp",
+    "gender": "male"
+  },
+  {
+    "id": 37,
+    "category": "footwear & accessories",
+    "title": "Dhaka Topi",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/dhaka topi 3.webp",
     "gender": "male"
   }
 ]
