@@ -128,12 +128,22 @@
   },
 
   {
-    "id": 14,
+    "id": 15,
     "category": "matching",
     "title": "Gurung Dress",
     "size": "",
     "price": "6499",
     "photo": "/assets/images/collections/Gurung Dress.webp",
+    "gender": "female"
+  },
+
+  {
+    "id": 16,
+    "category": "lehenga",
+    "title": "Fish Dress",
+    "size": "",
+    "price": "4999",
+    "photo": "/assets/images/collections/Fish Dress.webp",
     "gender": "female"
   }
 ]
