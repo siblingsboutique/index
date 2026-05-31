@@ -339,12 +339,21 @@
     "gender": "male"
   },
   {
-    "id": 37,
+    "id": 38,
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/dhaka topi 3.webp",
     "gender": "male"
+  },
+  {
+    "id": 39,
+    "category": "footwear & accessories",
+    "title": "Naugeri Red Hydro",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/naugeri red hydro.webp",
+    "gender": "female"
   }
 ]
