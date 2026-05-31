@@ -214,7 +214,7 @@
   {
     "id": 24,
     "category": "bridal",
-    "title": "Rai Bridal",
+    "title": "Rai Bridal Set",
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/Rai Bridal.webp",
@@ -245,6 +245,33 @@
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/full handowk saree blouse set.webp",
+    "gender": "female"
+  },
+  {
+    "id": 28,
+    "category": "footwear & accessories",
+    "title": "Bride Sandal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/bride sandal light red.webp",
+    "gender": "female"
+  },
+  {
+    "id": 29,
+    "category": "footwear & accessories",
+    "title": "Bride Sandal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/bride sandal light red.webp",
+    "gender": "female"
+  },
+  {
+    "id": 30,
+    "category": "footwear & accessories",
+    "title": "Bride Sandal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/bride sandal dark red.webp",
     "gender": "female"
   }
 ]
