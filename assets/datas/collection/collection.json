@@ -310,5 +310,23 @@
     "price": "",
     "photo": "/assets/images/collections/groom sandal 2.webp",
     "gender": "male"
+  },
+  {
+    "id": 35,
+    "category": "footwear & accessories",
+    "title": "Dhaka Topi",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/dhaka topi.webp",
+    "gender": "male"
+  },
+  {
+    "id": 35,
+    "category": "footwear & accessories",
+    "title": "Dhaka Topi",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/dhaka topi 1.webp",
+    "gender": "male"
   }
 ]
