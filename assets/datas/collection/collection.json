@@ -154,5 +154,15 @@
     "price": "4999",
     "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
     "gender": "male"
+  },
+
+  {
+    "id": 17,
+    "category": "matching",
+    "title": "Pashni Set",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
+    "gender": "all"
   }
 ]
