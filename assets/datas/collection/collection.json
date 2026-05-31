@@ -89,5 +89,23 @@
     "price": "4499",
     "photo": "/assets/images/collections/newari saree set.webp",
     "gender": "female"
+  },
+  {
+    "id": 11,
+    "category": "matching",
+    "title": "Nepali Bride & Groom",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/nepali bride and groom set.webp",
+    "gender": "all"
+  },
+  {
+    "id": 12,
+    "category": "matching",
+    "title": "Newari Men & Women",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/newari male female traditional.webp",
+    "gender": "all"
   }
 ]
