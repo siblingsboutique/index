@@ -51,7 +51,7 @@
     "title": "Floral Lehenga Handwork Chunni",
     "size": "",
     "price": "6499",
-    "photo": "/assets/images/collections/Floral lehenga  Handwork chunni Black.webp",
+    "photo": "/assets/images/collections/Floral Lehenga Pink Handwork.webp",
     "gender": "female"
   },
   {
@@ -237,5 +237,14 @@
     "price": "1999",
     "photo": "/assets/images/collections/dawra suruwal and waitcoast green kid.webp",
     "gender": "male"
+  },
+  {
+    "id": 27,
+    "category": "saree & kurta",
+    "title": "Daura Suruwal & Waistcoat",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/full handowk saree blouse set.webp",
+    "gender": "female"
   }
 ]
