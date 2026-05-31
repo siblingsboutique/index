@@ -219,5 +219,14 @@
     "price": "",
     "photo": "/assets/images/collections/purple kurta.webp",
     "gender": "female"
+  },
+  {
+    "id": 24,
+    "category": "bridal",
+    "title": "Rai Bridal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/Rai Bridal.webp",
+    "gender": "female"
   }
 ]
