@@ -276,12 +276,39 @@
   },
 
   {
-    "id": 30,
+    "id": 31,
     "category": "footwear & accessories",
     "title": "Naugeri Green Hydro",
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/naugeri green hydro.webp",
     "gender": "female"
+  },
+  {
+    "id": 32,
+    "category": "footwear & accessories",
+    "title": "Necklace Jhumka Set",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/necklace jhumka set.webp",
+    "gender": "female"
+  },
+  {
+    "id": 33,
+    "category": "footwear & accessories",
+    "title": "Groom Sandal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/groom sandal 1.webp",
+    "gender": "male"
+  },
+  {
+    "id": 34,
+    "category": "footwear & accessories",
+    "title": "Grrom Sandal",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/groom sandal 2.webp",
+    "gender": "male"
   }
 ]
