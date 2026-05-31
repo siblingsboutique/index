@@ -183,5 +183,14 @@
     "price": "",
     "photo": "/assets/images/collections/tamang Dress Brown.webp",
     "gender": "female"
+  },
+  {
+    "id": 20,
+    "category": "bridal",
+    "title": "Bridal Saree Set",
+    "size": "",
+    "price": "15499",
+    "photo": "/assets/images/collections/nepali bridal dress.webp",
+    "gender": "female"
   }
 ]
