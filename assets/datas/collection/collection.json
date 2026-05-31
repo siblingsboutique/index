@@ -228,5 +228,14 @@
     "price": "",
     "photo": "/assets/images/collections/Rai Bridal.webp",
     "gender": "female"
+  },
+  {
+    "id": 25,
+    "category": "traditional",
+    "title": "Blue Chaubandi",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/blue chaubandi.webp",
+    "gender": "female"
   }
 ]
