@@ -195,7 +195,7 @@
   },
   {
     "id": 22,
-    "category": "sareee & kurta",
+    "category": "saree & kurta",
     "title": "Smoke White Kurta",
     "size": "",
     "price": "",
@@ -204,7 +204,7 @@
   },
   {
     "id": 23,
-    "category": "sareee & kurta",
+    "category": "saree & kurta",
     "title": "Purple Kurta",
     "size": "",
     "price": "",
@@ -241,7 +241,7 @@
   {
     "id": 27,
     "category": "saree & kurta",
-    "title": "Daura Suruwal & Waistcoat",
+    "title": "Full Handwork Purple Saree Blouse",
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/full handowk saree blouse set.webp",
@@ -321,12 +321,21 @@
     "gender": "male"
   },
   {
-    "id": 35,
+    "id": 36,
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/dhaka topi 1.webp",
+    "gender": "male"
+  },
+  {
+    "id": 37,
+    "category": "footwear & accessories",
+    "title": "Dhaka Topi",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/dhaka topi 2.webp",
     "gender": "male"
   }
 ]
