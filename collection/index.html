@@ -197,6 +197,155 @@
       }
     </style>
 
+    <section class="buttom-sticky-navigation-bar-for-mobile"></section>
+    <div class="mobile-bottom-bar">
+  <button id="gender-btn">
+    <i class="fa-solid fa-venus-mars"></i>
+    <span>Gender</span>
+  </button>
+
+  <button id="sort-btn">
+    <i class="fa-solid fa-arrow-up-wide-short"></i>
+    <span>Sort</span>
+  </button>
+
+  <button id="filter-btn">
+    <i class="fa-solid fa-sliders"></i>
+    <span>Filter</span>
+  </button>
+</div>
+
+<div class="sheet-overlay"></div>
+
+<div class="bottom-sheet">
+  <div class="sheet-header">
+    <span id="sheet-title">Filter</span>
+    <span id="sheet-close">
+      <i class="fa-solid fa-xmark"></i>
+    </span>
+  </div>
+
+  <div class="sheet-content"></div>
+</div>
+      <style>
+        .mobile-bottom-bar {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 60px;
+          background: #fff;
+          display: flex;
+          border-top: 1px solid #ddd;
+          z-index: 1000;
+        }
+
+        .mobile-bottom-bar button {
+          flex: 1;
+          border: none;
+          background: #fff;
+          font-weight: 600;
+        }
+
+        .sheet-overlay {
+          position: fixed;
+          inset: 0;
+          background: rgba(0, 0, 0, 0.4);
+          opacity: 0;
+          visibility: hidden;
+          transition: 0.3s;
+          z-index: 1001;
+        }
+
+        .sheet-overlay.show {
+          opacity: 1;
+          visibility: visible;
+        }
+
+        .bottom-sheet {
+          position: fixed;
+          left: 0;
+          bottom: -100%;
+          width: 100%;
+          background: #fff;
+          border-radius: 20px 20px 0 0;
+          transition: 0.3s ease;
+          z-index: 1002;
+          max-height: 80vh;
+        }
+
+        .bottom-sheet.show {
+          bottom: 0;
+        }
+
+        .sheet-header {
+          display: flex;
+          justify-content: space-between;
+          padding: 15px;
+          border-bottom: 1px solid #eee;
+        }
+
+        .sheet-content {
+          padding: 20px;
+        }
+
+        @media (min-width: 992px) {
+          .mobile-bottom-bar {
+            display: none;
+          }
+        }
+      </style>
+      <script>
+        const sheet = document.querySelector(".bottom-sheet");
+        const overlay = document.querySelector(".sheet-overlay");
+        const sheetContent = document.querySelector(".sheet-content");
+        const sheetTitle = document.getElementById("sheet-title");
+
+        function openSheet(title, content) {
+          sheetTitle.innerHTML = title;
+          sheetContent.innerHTML = content;
+
+          sheet.classList.add("show");
+          overlay.classList.add("show");
+        }
+
+        function closeSheet() {
+          sheet.classList.remove("show");
+          overlay.classList.remove("show");
+        }
+
+        document.getElementById("sheet-close").onclick = closeSheet;
+        overlay.onclick = closeSheet;
+
+        document.getElementById("gender-btn").onclick = () => {
+          openSheet(
+            "Gender",
+            `
+      <label><input type="radio" name="gender" value="all" ${activeGender === "all" ? "checked" : ""}> All</label><br><br>
+      <label><input type="radio" name="gender" value="female" ${activeGender === "female" ? "checked" : ""}> Female</label><br><br>
+      <label><input type="radio" name="gender" value="male" ${activeGender === "male" ? "checked" : ""}> Male</label>
+    `,
+          );
+
+          document.querySelectorAll('input[name="gender"]').forEach((radio) => {
+            radio.addEventListener("change", (e) => {
+              activeGender = e.target.value;
+              renderCollections(); // your existing function
+              closeSheet();
+            });
+          });
+        };
+
+        document.getElementById("sort-btn").onclick = () => {
+          openSheet("Sort", "<p>Coming Soon...</p>");
+        };
+
+        document.getElementById("filter-btn").onclick = () => {
+          openSheet("Filter", "<p>Coming Soon...</p>");
+        };
+      </script>
+    
+
     <script>
       //   // Navbar scroll effect
       //   window.addEventListener("scroll", function () {
@@ -281,6 +430,8 @@
 
       //   loadCollections();
     </script>
+
+    </section>
 
     <!-- if you do not want to shuffle contents -->
 
