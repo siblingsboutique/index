@@ -39,8 +39,12 @@
     "id": 5,
     "category": "traditional",
     "title": "Daura Suruwal & Waistcoat Set",
-    "size": "20, 26, 28",
-    "price": "",
+    "size": [20, 26, 28],
+    "color": "",
+    "price": [
+      "/assets/images/collections/Daura Suruwal & Waistcoat Set Green.webp",
+      "/assets/images/collections/net lehenga light green.webp"
+    ],
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Red.webp",
     "gender": "male"
   },

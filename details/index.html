@@ -1,0 +1,438 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Siblings Creations" />
+    <meta property="og:title" content="Siblings Creations" />
+    <meta property="og:description" content="Boutique Collection" />
+    <meta
+      property="og:image"
+      content="https://siblingscreations.in/assets/images/logo.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Collection Details</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        background: #fff;
+        color: #282c3f;
+      }
+
+      .details-page {
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      .product-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      @media (min-width: 992px) {
+        .product-layout {
+          grid-template-columns: 55% 45%;
+          align-items: start;
+        }
+      }
+
+      .main-image-container {
+        background: #fafafa;
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .main-image {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+
+      @media (min-width: 992px) {
+        .main-image {
+          max-height: 800px;
+          object-fit: contain;
+        }
+
+        .left-section {
+          position: sticky;
+          top: 20px;
+        }
+      }
+
+      .right-section {
+        padding-top: 10px;
+      }
+
+      .category {
+        color: #ff3f6c;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+
+      .title {
+        font-size: 32px;
+        font-weight: 600;
+        margin-top: 6px;
+        line-height: 1.3;
+      }
+
+      .meta {
+        margin-top: 25px;
+      }
+
+      .meta-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 12px;
+        text-transform: uppercase;
+      }
+
+      .sizes {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+
+      .size-chip {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+
+      .size-chip:hover,
+      .size-chip.active {
+        border-color: #ff3f6c;
+        color: #ff3f6c;
+      }
+
+      .color-gallery {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .color-thumb {
+        width: 80px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        cursor: pointer;
+        transition: 0.2s;
+      }
+
+      .color-thumb:hover,
+      .color-thumb.active {
+        border: 2px solid #ff3f6c;
+      }
+
+      .info-grid {
+        margin-top: 25px;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+      }
+
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        border-bottom: 1px solid #f3f3f3;
+      }
+
+      .info-label {
+        color: #777;
+      }
+
+      .info-value {
+        font-weight: 500;
+      }
+      .action-buttons {
+        display: flex;
+        gap: 12px;
+        margin-top: 30px;
+      }
+
+      .whatsapp-btn {
+        flex: 1;
+        margin-top: 0;
+      }
+
+      .share-btn {
+        min-width: 110px;
+        border: none;
+        border-radius: 8px;
+        background: #f5f5f5;
+        color: #282c3f;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .share-btn:hover {
+        background: #ececec;
+      }
+
+      .whatsapp-btn {
+        margin-top: 30px;
+        width: 100%;
+        height: 52px;
+        border: none;
+        border-radius: 8px;
+        background: #25d366;
+        color: white;
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+      }
+
+      .whatsapp-btn:hover {
+        opacity: 0.95;
+      }
+
+      @media (max-width: 991px) {
+        .title {
+          font-size: 24px;
+        }
+
+        .color-thumb {
+          width: 70px;
+          height: 90px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="details-page">
+      <div class="product-layout">
+        <div class="left-section">
+          <div class="main-image-container">
+            <img id="mainImage" class="main-image" />
+          </div>
+        </div>
+
+        <div class="right-section">
+          <div id="category" class="category"></div>
+
+          <h1 id="title" class="title"></h1>
+
+          <div class="meta">
+            <div class="meta-title">Available Sizes</div>
+
+            <div id="sizes" class="sizes"></div>
+          </div>
+
+          <div class="meta">
+            <div class="meta-title">Available Colors</div>
+
+            <div id="colorGallery" class="color-gallery"></div>
+          </div>
+
+          <div class="info-grid">
+            <div class="info-row">
+              <span class="info-label">Category</span>
+              <span id="categoryText" class="info-value"></span>
+            </div>
+
+            <div class="info-row">
+              <span class="info-label">Gender</span>
+              <span id="genderText" class="info-value"></span>
+            </div>
+          </div>
+
+          <div class="action-buttons">
+            <a id="whatsappBtn" class="whatsapp-btn" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i>
+              Enquire
+            </a>
+
+            <button id="shareBtn" class="share-btn">
+              <i class="fa-solid fa-arrow-up-from-bracket"></i>
+              Share
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const itemId = Number(
+        new URLSearchParams(window.location.search).get("id"),
+      );
+
+      async function loadItem() {
+        let item;
+
+        try {
+          const response = await fetch(
+            "../assets/datas/collection/collection.json",
+          );
+
+          const data = await response.json();
+
+          item = data.find((x) => x.id === itemId);
+        } catch (error) {
+          console.log("Using dummy data:", error);
+        }
+
+        // Fallback item
+        if (!item) {
+          item = {
+            id: 5,
+            category: "traditional",
+            title: "Daura Suruwal & Waistcoat Set",
+            size: [20, 26, 28],
+            color: [
+              "../assets/images/collections/Daura Suruwal & Waistcoat Set Green.webp",
+              "../assets/images/collections/net lehenga light green.webp",
+            ],
+            price: "",
+            photo:
+              "../assets/images/collections/Daura Suruwal & Waistcoat Set Red.webp",
+            gender: "male",
+          };
+        }
+
+        // Main Details
+        document.getElementById("mainImage").src = item.photo;
+        document.getElementById("title").textContent = item.title;
+        document.getElementById("category").textContent = item.category;
+        document.getElementById("categoryText").textContent = item.category;
+        document.getElementById("genderText").textContent = item.gender;
+
+        // Sizes
+        document.getElementById("sizes").innerHTML = (item.size || [])
+          .map(
+            (size) => `
+        <div class="size-chip">${size}</div>
+      `,
+          )
+          .join("");
+
+        // Available Color Images
+        const allImages = [
+          item.photo,
+          ...(Array.isArray(item.color) ? item.color : []),
+        ];
+
+        document.getElementById("colorGallery").innerHTML = allImages
+          .map(
+            (img, index) => `
+        <img
+          src="${img}"
+          class="color-thumb ${index === 0 ? "active" : ""}"
+          data-image="${img}"
+          alt=""
+        >
+      `,
+          )
+          .join("");
+
+        // Image Switcher
+        document.querySelectorAll(".color-thumb").forEach((img) => {
+          img.addEventListener("click", () => {
+            document
+              .querySelectorAll(".color-thumb")
+              .forEach((x) => x.classList.remove("active"));
+
+            img.classList.add("active");
+
+            document.getElementById("mainImage").src = img.dataset.image;
+          });
+        });
+
+        // Size Selection
+        document.querySelectorAll(".size-chip").forEach((size) => {
+          size.addEventListener("click", () => {
+            document
+              .querySelectorAll(".size-chip")
+              .forEach((x) => x.classList.remove("active"));
+
+            size.classList.add("active");
+          });
+        });
+
+        window.currentItem = item;
+
+        document.getElementById("whatsappBtn").href =
+          `https://wa.me/9749693181?text=${encodeURIComponent(
+            `Hi Siblings Creations, I am interested in ${item.title}`,
+          )}`;
+      }
+
+      loadItem();
+
+      const shareBtn = document.getElementById("shareBtn");
+
+      shareBtn.addEventListener("click", async () => {
+        const item = window.currentItem;
+
+        if (!item) return;
+
+        const shareText = `
+${item.title}
+
+Category: ${item.category}
+${item.price ? `Price: ₹${item.price}` : ""}
+
+✨ Explore this collection at Siblings Creations
+`;
+
+        try {
+          if (navigator.share) {
+            await navigator.share({
+              title: item.title,
+              text: shareText,
+              url: window.location.href,
+            });
+          } else {
+            await navigator.clipboard.writeText(
+              `${shareText}\n${window.location.href}`,
+            );
+
+            alert("Link copied successfully");
+          }
+        } catch (err) {
+          console.log(err);
+        }
+      });
+    </script>
+  </body>
+</html>
