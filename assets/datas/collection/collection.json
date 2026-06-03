@@ -1,17 +1,21 @@
 [
   {
     "id": 1,
+    "product_no": "SCB0000K001",
     "category": "kids",
     "title": "Full Handowork Boutique Pashni Set",
     "size": "",
     "price": "",
+    "tags": ["pashni", "kids"],
     "photo": "/assets/images/collections/pashni set kid girl.webp",
     "gender": "female"
   },
   {
     "id": 2,
+    "product_no": "SCB0000K002",
     "category": "traditional",
     "title": "Handwork Chaubandi",
+    "tags": ["chaubandi"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/handwork chaubandi.webp",
@@ -19,8 +23,10 @@
   },
   {
     "id": 3,
+    "product_no": "SCB0000K003",
     "category": "lehenga",
-    "title": "Net Lehenga Green ",
+    "title": "Net Lehenga Green",
+    "tags": ["lehenga"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/net lehenga light green.webp",
@@ -28,8 +34,10 @@
   },
   {
     "id": 4,
+    "product_no": "SCB0000K004",
     "category": "traditional",
     "title": "Daura Suruwal & Waistcoat Set",
+    "tags": ["dawra-sural"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Green.webp",
@@ -37,22 +45,23 @@
   },
   {
     "id": 5,
+    "product_no": "SCB0000K005",
     "category": "traditional",
     "title": "Daura Suruwal & Waistcoat Set",
-    "size": [20, 26, 28],
+    "tags": ["dawra-sural"],
+    "size": "",
     "color": "",
-    "price": [
-      "/assets/images/collections/Daura Suruwal & Waistcoat Set Green.webp",
-      "/assets/images/collections/net lehenga light green.webp"
-    ],
+    "price": "",
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Red.webp",
     "gender": "male"
   },
 
   {
     "id": 6,
+    "product_no": "SCB0000K006",
     "category": "lehenga",
     "title": "Floral Lehenga Handwork Chunni",
+    "tags": ["lehenga"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/Floral Lehenga Pink Handwork.webp",
@@ -60,8 +69,10 @@
   },
   {
     "id": 7,
+    "product_no": "SCB0000K007",
     "category": "kids",
     "title": "Limboo Lehenga Choli",
+    "tags": ["lehenga"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/Limboo Lehenga Choli Set.webp",
@@ -69,8 +80,10 @@
   },
   {
     "id": 8,
+    "product_no": "SCB0000K008",
     "category": "traditional",
     "title": "Newari Boy Coat Set",
+    "tags": ["dawra-sural"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/newar dawra sural set.webp",
@@ -78,8 +91,10 @@
   },
   {
     "id": 9,
+    "product_no": "SCB0000K009",
     "category": "bridal",
     "title": "Bridal Saree Set",
+    "tags": ["saree"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/nepali bridal dress.webp",
@@ -87,8 +102,10 @@
   },
   {
     "id": 10,
+    "product_no": "SCB0000K010",
     "category": "traditional",
     "title": "Newari Saree Set",
+    "tags": ["saree"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/newari saree set.webp",
@@ -96,8 +113,10 @@
   },
   {
     "id": 11,
+    "product_no": "SCB0000K011",
     "category": "matching",
     "title": "Nepali Bride & Groom",
+    "tags": ["saree", "dawra-sural"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/nepali bride and groom set.webp",
@@ -105,8 +124,10 @@
   },
   {
     "id": 12,
+    "product_no": "SCB0000K012",
     "category": "matching",
     "title": "Newari Men & Women",
+    "tags": ["saree", "dawra-sural"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/newari male female traditional.webp",
@@ -114,6 +135,7 @@
   },
   {
     "id": 13,
+    "product_no": "SCB0000K013",
     "category": "lehenga",
     "title": "Floral Lehenga Set",
     "size": "",
@@ -123,6 +145,7 @@
   },
   {
     "id": 14,
+    "product_no": "SCB0000K014",
     "category": "matching",
     "title": "Dhaka Lehenga Choli Set",
     "size": "",
@@ -133,6 +156,7 @@
 
   {
     "id": 15,
+    "product_no": "SCB0000K015",
     "category": "traditional",
     "title": "Gurung Dress",
     "size": "",
@@ -143,6 +167,7 @@
 
   {
     "id": 16,
+    "product_no": "SCB0000K016",
     "category": "lehenga",
     "title": "Fish Dress",
     "size": "",
@@ -153,6 +178,7 @@
 
   {
     "id": 17,
+    "product_no": "SCB0000K017",
     "category": "matching",
     "title": "Pashni Set",
     "size": "",
@@ -163,6 +189,7 @@
 
   {
     "id": 18,
+    "product_no": "SCB0000K018",
     "category": "traditional",
     "title": "Tamang Dress",
     "size": "",
@@ -172,6 +199,7 @@
   },
   {
     "id": 19,
+    "product_no": "SCB0000K019",
     "category": "traditional",
     "title": "Newari Gown",
     "size": "",
@@ -181,6 +209,7 @@
   },
   {
     "id": 20,
+    "product_no": "SCB0000K020",
     "category": "bridal",
     "title": "Bridal Saree Set",
     "size": "",
@@ -190,6 +219,7 @@
   },
   {
     "id": 21,
+    "product_no": "SCB0000K021",
     "category": "saree & kurta",
     "title": "Black Kurta",
     "size": "",
@@ -199,6 +229,7 @@
   },
   {
     "id": 22,
+    "product_no": "SCB0000K022",
     "category": "saree & kurta",
     "title": "Smoke White Kurta",
     "size": "",
@@ -208,6 +239,7 @@
   },
   {
     "id": 23,
+    "product_no": "SCB0000K023",
     "category": "saree & kurta",
     "title": "Purple Kurta",
     "size": "",
@@ -217,6 +249,7 @@
   },
   {
     "id": 24,
+    "product_no": "SCB0000K024",
     "category": "bridal",
     "title": "Rai Bridal Set",
     "size": "",
@@ -226,8 +259,10 @@
   },
   {
     "id": 25,
+    "product_no": "SCB0000K025",
     "category": "traditional",
     "title": "Blue Chaubandi",
+    "tags": ["chaubandi"],
     "size": "",
     "price": "",
     "photo": "/assets/images/collections/blue chaubandi.webp",
@@ -235,6 +270,7 @@
   },
   {
     "id": 26,
+    "product_no": "SCB0000K026",
     "category": "kids",
     "title": "Daura Suruwal & Waistcoat",
     "size": "",
@@ -244,6 +280,7 @@
   },
   {
     "id": 27,
+    "product_no": "SCB0000K027",
     "category": "saree & kurta",
     "title": "Full Handwork Purple Saree Blouse",
     "size": "",
@@ -253,6 +290,7 @@
   },
   {
     "id": 28,
+    "product_no": "SCB0000K028",
     "category": "footwear & accessories",
     "title": "Bride Sandal",
     "size": "",
@@ -262,6 +300,7 @@
   },
   {
     "id": 29,
+    "product_no": "SCB0000K029",
     "category": "footwear & accessories",
     "title": "Bride Sandal",
     "size": "",
@@ -271,6 +310,7 @@
   },
   {
     "id": 30,
+    "product_no": "SCB0000K030",
     "category": "footwear & accessories",
     "title": "Bride Sandal",
     "size": "",
@@ -281,6 +321,7 @@
 
   {
     "id": 31,
+    "product_no": "SCB0000K031",
     "category": "footwear & accessories",
     "title": "Naugeri Green Hydro",
     "size": "",
@@ -290,6 +331,7 @@
   },
   {
     "id": 32,
+    "product_no": "SCB0000K032",
     "category": "footwear & accessories",
     "title": "Necklace Jhumka Set",
     "size": "",
@@ -299,6 +341,7 @@
   },
   {
     "id": 33,
+    "product_no": "SCB0000K033",
     "category": "footwear & accessories",
     "title": "Groom Sandal",
     "size": "",
@@ -308,6 +351,7 @@
   },
   {
     "id": 34,
+    "product_no": "SCB0000K034",
     "category": "footwear & accessories",
     "title": "Grrom Sandal",
     "size": "",
@@ -317,6 +361,7 @@
   },
   {
     "id": 35,
+    "product_no": "SCB0000K035",
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
@@ -326,6 +371,7 @@
   },
   {
     "id": 36,
+    "product_no": "SCB0000K036",
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
@@ -335,6 +381,7 @@
   },
   {
     "id": 37,
+    "product_no": "SCB0000K037",
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
@@ -344,6 +391,7 @@
   },
   {
     "id": 38,
+    "product_no": "SCB0000K038",
     "category": "footwear & accessories",
     "title": "Dhaka Topi",
     "size": "",
@@ -353,6 +401,7 @@
   },
   {
     "id": 39,
+    "product_no": "SCB0000K039",
     "category": "footwear & accessories",
     "title": "Naugeri Red Hydro",
     "size": "",
