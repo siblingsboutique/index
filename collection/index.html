@@ -696,9 +696,11 @@ body {
         collectionGrid.innerHTML = filtered
           .map(
             (item) => `
-        <article class="collection-item" onclick="handleArticleClick(${item.id})">
+        <article class="collection-item" >
           <div class="collection-media">
-            <img 
+            <img
+              onclick="handleArticleClick(${item.id})" 
+              style="cursor:pointer;"
               src="${item.photo}" 
               loading="eager"
               fetchpriority="high"
@@ -709,7 +711,8 @@ body {
           <div class="collection-info">
             <span class="collection-tag">${item.category}</span>
 
-            <h5>${item.title}</h5>
+            <h5 onclick="handleArticleClick(${item.id})" 
+              style="cursor:pointer;">${item.title}</h5>
 
             <p class="collection-price">
               ${item.price !== "" ? "Rs. " + item.price : ""}
