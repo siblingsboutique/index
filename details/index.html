@@ -12,6 +12,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collection Details</title>
+    <link rel="stylesheet" href="../assets/style.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
@@ -70,7 +71,7 @@
       @media (min-width: 992px) {
         .main-image {
           max-height: 800px;
-          object-fit: contain;
+          object-fit: fill  ;
         }
 
         .left-section {
@@ -206,7 +207,6 @@
       }
 
       .whatsapp-btn {
-        margin-top: 30px;
         width: 100%;
         height: 52px;
         border: none;
@@ -240,6 +240,32 @@
   </head>
 
   <body>
+    <nav class="navbar scrolled">
+      <div class="nav-container">
+        <a href="/" class="logo">
+          <span class="logo-icon">✿</span>
+          <span class="logo-text">Siblings Creations</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="/#home">Home</a></li>
+          <li><a href="/#about">About</a></li>
+          <li><a href="/#collections">Collections</a></li>
+          <li><a href="/#services">Services</a></li>
+          <li><a href="/#gallery">Gallery</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+          <!-- <a href="#" class="icon"><i class="fas fa-search"></i></a>
+          <a href="#" class="icon"><i class="fas fa-shopping-bag"></i></a> -->
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section>
     <div class="details-page">
       <div class="product-layout">
         <div class="left-section">
@@ -265,7 +291,7 @@
             <div id="colorGallery" class="color-gallery"></div>
           </div>
 
-          <div class="info-grid">
+          <!-- <div class="info-grid">
             <div class="info-row">
               <span class="info-label">Category</span>
               <span id="categoryText" class="info-value"></span>
@@ -275,7 +301,7 @@
               <span class="info-label">Gender</span>
               <span id="genderText" class="info-value"></span>
             </div>
-          </div>
+          </div> -->
 
           <div class="action-buttons">
             <a id="whatsappBtn" class="whatsapp-btn" target="_blank">
@@ -291,6 +317,7 @@
         </div>
       </div>
     </div>
+      
 
     <script>
       const itemId = Number(
@@ -334,8 +361,8 @@
         document.getElementById("mainImage").src = item.photo;
         document.getElementById("title").textContent = item.title;
         document.getElementById("category").textContent = item.category;
-        document.getElementById("categoryText").textContent = item.category;
-        document.getElementById("genderText").textContent = item.gender;
+        // document.getElementById("categoryText").textContent = item.category;
+        // document.getElementById("genderText").textContent = item.gender;
 
         // Sizes
         document.getElementById("sizes").innerHTML = (item.size || [])
