@@ -284,11 +284,11 @@
 
           <h1 id="title" class="title"></h1>
 
-          <!-- <div class="meta">
-            <div class="meta-title">Available Sizes</div>
+          <div class="meta">
+            <!-- <div class="meta-title">Available Sizes</div> -->
 
             <div id="sizes" class="sizes"></div>
-          </div> -->
+          </div>
 
           <div class="meta">
             <div class="meta-title">Similar Products</div>
@@ -370,13 +370,13 @@
         // document.getElementById("genderText").textContent = item.gender;
 
         // Sizes
-        document.getElementById("sizes").innerHTML = (item.size || [])
-          .map(
-            (size) => `
-        <div class="size-chip">${size}</div>
-      `,
-          )
-          .join("");
+      //   document.getElementById("sizes").innerHTML = (item.size || [])
+      //     .map(
+      //       (size) => `
+      //   <div class="size-chip">${size}</div>
+      // `,
+      //     )
+      //     .join("");
 
         // Available Color Images
         const allImages = [
