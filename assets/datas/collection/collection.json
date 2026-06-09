@@ -408,5 +408,16 @@
     "price": "",
     "photo": "/assets/images/collections/naugeri red hydro.webp",
     "gender": "female"
+  },
+  {
+    "id": 40,
+    "product_no": "SCB0000K004",
+    "category": "traditional",
+    "title": "Daura Suruwal & Waistcoat Set",
+    "tags": ["dawra-sural"],
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Brown.webp",
+    "gender": "male"
   }
 ]
