@@ -419,5 +419,15 @@
     "price": "",
     "photo": "/assets/images/collections/Daura Suruwal & Waistcoat Set Brown.webp",
     "gender": "male"
+  },
+  {
+    "id": 41,
+    "product_no": "SCB0000K041",
+    "category": "saree & kurta",
+    "title": "Black Golden Saree Blouse Set",
+    "size": "",
+    "price": "",
+    "photo": "/assets/images/collections/Black Golden Saree.webp",
+    "gender": "female"
   }
 ]
